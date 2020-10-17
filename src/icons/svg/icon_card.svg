@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_mjkgl</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="icon_mjkgl" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" stroke="#D4D7D8">
+                <g transform="translate(0.000000, 1.777778)">
+                    <rect id="Rectangle-13" x="0.5" y="0.5" width="15" height="11.4444444" rx="2"></rect>
+                    <ellipse id="Oval" cx="5.63209613" cy="4.66783882" rx="1.97695298" ry="1.94415141"></ellipse>
+                    <path d="M8.5975256,9.52821734 C8.5975256,7.91762958 7.2698576,6.61199023 5.63209613,6.61199023 C3.99433466,6.61199023 2.66666667,7.91762958 2.66666667,9.52821734" id="Oval-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <path d="M10.2222222,4.88888889 L13.7777778,4.88888889" id="Line" stroke-linecap="round"></path>
+                    <path d="M10.2222222,6.66666667 L13.7777778,6.66666667" id="Line-Copy" stroke-linecap="round"></path>
+                    <path d="M10.2222222,8.44444444 L13.7777778,8.44444444" id="Line-Copy-2" stroke-linecap="round"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

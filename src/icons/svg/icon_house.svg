@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icin_fw</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="18" height="18"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icin_fw">
+            <g id="icon_fw">
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Mask"></g>
+                <polygon id="Path-2" stroke="#D4D7D8" stroke-linecap="round" stroke-linejoin="round" mask="url(#mask-2)" points="17.3358757 8.8884372 8.94743852 0.5 0.5 8.83756133 2.83386739 8.8849543 2.82797633 17.3711172 6.82972876 17.3711172 6.82972876 12.3492619 10.8352023 12.3492619 10.8352023 17.3800075 14.8232642 17.3800075 14.8232642 8.94000374"></polygon>
+            </g>
+        </g>
+    </g>
+</svg>

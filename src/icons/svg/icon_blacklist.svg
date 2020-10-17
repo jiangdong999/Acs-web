@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="16px" viewBox="0 0 16 16" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 49 (51002) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_hmd</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="16" height="16"></rect>
+    </defs>
+    <g id="icon_hmd" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-2">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g mask="url(#mask-2)" stroke="#D4D7D8">
+                <g transform="translate(0.000000, 0.888889)">
+                    <circle id="Oval-2" cx="7.11111111" cy="3.55555556" r="3.55555556"></circle>
+                    <path d="M10.2222222,8.09501294 C9.38701249,7.74744957 8.47075884,7.55555556 7.50968594,7.55555556 C3.60766081,7.55555556 0.444444444,10.7187719 0.444444444,14.6207971" id="Oval-2-Copy" stroke-linecap="round" stroke-linejoin="round"></path>
+                    <circle id="Oval-4" cx="12.4444444" cy="11.5555556" r="3.11111111"></circle>
+                    <path d="M15.1111111,10.1333333 L10.2222222,12.8888889" id="Line" stroke-linecap="square"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

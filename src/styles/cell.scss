@@ -1,0 +1,157 @@
+  
+  .header{
+    line-height: 36px;
+    padding: 6px 30px;
+    background-color: #fff;
+    font-weight: 900;
+    cursor: default;
+  }
+  .header>.control-right{
+    font-size: 13px;
+  }
+  .body{
+    position: relative;
+    padding: 55px 30px;
+  }
+  .body1{
+    padding: 18px 30px;
+  }
+  .view{
+    position: relative;
+    background-color: #f0f2f5
+  }
+  .topBar{
+    position: absolute;
+    line-height: 55px;
+    top: -55px;
+    left: 0;
+    font-size: 14px;
+    width: 100%;
+  }
+  .back-btn{
+    cursor: pointer;
+    color: #007ee4;
+    display: inline-block;
+    height: 42px;
+    line-height: 42px;
+  }
+  .topBar>span{
+    margin-left: 90px;
+  }
+  .topBar>label{
+    position: absolute;
+    left: 0;
+    width: 90px;
+    line-height: 55px;
+    padding: 0;
+    cursor: pointer;
+    color: #007ee4;
+    border: none
+  }
+  .topBar>div{
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .grev,.green,.orange{
+    margin-left: 30px;
+  }
+  .grev:before,.green:before,.orange:before{
+    content:'';
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-right: 5px;
+    vertical-align: sub;
+  }
+  .grev:before{background-color: #BBBBBB;}
+  .orange:before{background-color: #FFAA20;}
+  .green:before{background-color: #007ee4;}
+  .view-row{
+    position: relative;
+    margin-bottom: 20px;
+  }
+  .view-row>label{
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: inline-block;
+    width: 90px;
+    text-align: center;
+    line-height: 70px;
+    font-size: 18px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  .view-row .view-cells{
+    margin-left: 90px;
+  }
+  .area-cell, .cell{
+    background-color: #fff;
+    padding: 10px 20px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.05);
+    transition: all .3s;
+    cursor: pointer;
+    float: left;
+    margin: 0 20px 20px 0;
+  }
+  .area-cell>label, .cell>label{
+    transition: all .3s;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  .area-cell>span,.area-cell>div, .cell>span, .cell>div{
+    font-size: 14px;
+    transition: all .3s;
+    color: #aaaaaa;
+  }
+  .cell-focus:hover{
+    background-color: #3C8AFF;
+  }
+  .cell-focus:hover>span, .cell-focus:hover>label,.return-person:hover{
+    color: #fff !important;
+  }
+  .content>label{
+    font-size: 14px;
+  }
+  .cell-group{
+    margin-top: 10px;
+  }
+  .cell-group>div{
+    display: inline-block;
+    padding: 15px 20px;
+    border-radius: 10px;
+    color: #3C8AFF;
+    background-color: rgba(60, 138, 255, .1);
+    margin-right: 10px;
+    transition: all .3s;
+    cursor: pointer;
+    margin-bottom: 10px;
+  }
+  .cell-group>div:hover{
+    background-color: #3C8AFF;
+    color: #fff;
+  }
+  .area-cell>.cell-badge, .cell>.cell-badge{
+    color: #fff;
+    height: 25px;
+  }
+  .area-cell>.cell-badge>div, .cell>.cell-badge>div{
+    background-color: #3C8AFF;
+    border-radius: 3px;
+    color: #fff;
+    display: block;
+    padding: 0 10px;
+    line-height: 24px;
+    font-size: 12px;
+  }
+  .icon-cardb{
+    margin-right: 15px;
+  }
+  span.iconfont{
+    margin-left: 3px;
+  }

@@ -1,0 +1,488 @@
+ //覆盖一些element-ui样式
+
+ .el-breadcrumb__inner, .el-breadcrumb__inner a, .el-breadcrumb__separator{
+  font-weight: 400 !important;
+  color: #fff !important;
+  opacity: .8;
+}
+.el-breadcrumb__inner a:hover{
+  color: #000 !important;
+}
+ .el-upload {
+   input[type="file"] {
+     display: none !important;
+   }
+ }
+
+ .el-upload__input {
+   display: none;
+ }
+
+ .cell {
+   .el-tag {
+     margin-right: 0px;
+   }
+ }
+
+ .small-padding {
+   .cell {
+     padding-left: 5px;
+     padding-right: 5px;
+   }
+ }
+
+ .fixed-width{
+  .el-button--mini{
+    padding: 7px 10px;
+    width: 60px;
+  }
+ }
+
+ .status-col {
+   .cell {
+     padding: 0 10px;
+     text-align: center;
+     .el-tag {
+       margin-right: 0px;
+     }
+   }
+ }
+
+ //暂时性解决dialog 问题 https://github.com/ElemeFE/element/issues/2461
+ .el-dialog {
+   transform: none;
+   left: 0;
+   position: relative;
+   margin: 0 auto;
+ }
+
+ //文章页textarea修改样式
+ .article-textarea {
+   textarea {
+     padding-right: 40px;
+     resize: none;
+     border: none;
+     border-radius: 0px;
+     border-bottom: 1px solid #bfcbd9;
+   }
+ }
+
+ //element ui upload
+ .upload-container {
+   .el-upload {
+     width: 100%;
+     .el-upload-dragger {
+       width: 100%;
+       height: 200px;
+     }
+   }
+ }
+
+//  日期选择控件中间“至”显示不完整
+.el-date-editor .el-range-separator{
+   width: 9% !important;
+ }
+//  覆盖日期控件350px 新增门禁机公告
+.el-date-editor--daterange.el-input__inner{
+  max-width: 100%;
+}
+// UI 2.1.0规范
+.el-form .el-button--danger{
+  background-color: #FFC95F;
+  border-color: #FFC95F;
+}
+.el-form .el-button--danger:hover{
+  background-color: #FFE1A7;
+  border-color: #FFE1A7;
+}
+.el-form .el-button--danger:focus{
+  background-color: #FFE1A7;
+  border-color: #FFE1A7;
+}
+.el-checkbox__label,.el-radio__label{
+  padding-left: 6px;
+}
+.el-input__inner{
+  padding: 0 12px;
+}
+.el-input.is-disabled .el-input__inner{
+  background-color: #eeeeee
+}
+
+// 折叠面板底部padding
+.el-collapse-item__content{
+  padding: 0;
+}
+//步骤条步骤背景
+.el-steps--simple{
+  background-color: #F5F7FA;
+}
+.el-step.is-simple .el-step__title{
+  line-height: 22px !important;
+  height: 24px !important;
+}
+//步骤条title
+.el-step__title.is-finish{
+  color: inherit;
+}
+// select下拉图标
+.el-select .el-input .el-select__caret{
+  color: #333333;
+}
+
+// 搜索筛选的内容
+.control-panel {
+  // padding: 10px 20px 0 20px;
+  padding-top: 10px;
+  margin-bottom: 20px;
+  background-color:white;
+}
+.control-panel {
+  margin-bottom: 15px;
+  // margin-right: 10px;
+}
+// .control-panel .el-row{
+//   margin-bottom: 10px;
+// }
+// .control-panel .el-row:last-child{
+//   margin-bottom: 0;
+// }
+.control-panel input.el-input__inner,div.sSize-input-date.el-input{
+  width: 150px;
+}
+.control-panel .widen-input .el-input__inner{
+  width: 355px;
+}
+.mini-input.el-input{
+  width: 80px;
+}
+.control-panel .el-date-editor--datetimerange{
+  width: 400px;
+}
+
+.el-dialog .el-input-group,
+.el-dialog .el-input,
+.normal-width-input .el-input{
+  width: 200px;
+}
+// 列表表头
+label.el-form-item__label, .el-table .cell{
+  color: #333333;
+}
+.el-table .cell, .el-table, label.el-form-item__label{
+  font-size: 12px;
+}
+.el-table th > .cell{
+  font-size: 14px;
+}
+.el-table--medium td, .el-table--medium th{
+  padding: 10px 0 !important;
+}
+
+.el-popover__title{
+  font-weight: 900;
+  line-height: 20px;
+}
+.mini-input .el-input,.profession.el-input{
+  width: 130px;
+}
+.el-step__icon.is-text{
+  border: none
+}
+.is-finish+.el-step__main{
+  color: #007ee4
+}
+.el-button--medium{
+  font-size: 12px
+}
+
+.el-form-item__label{
+  font-size: 12px;
+  padding: 0 10px 0 0;
+}
+
+.el-date-editor.el-input, .el-date-editor.el-input__inner{
+  width: 200px
+}
+.el-dialog .el-input.el-input--small{
+  width: 130px;
+}
+
+// 机构树名称过长导致新增删除按钮overflow，所以将按钮置为绝对定位解决
+.el-tree-node__content{
+  position: relative;
+}
+
+.el-cascader-menu__item--extensible:after{
+  right: 5px;
+}
+.cascader-style .el-cascader-menu{
+  height: auto;
+  max-height: 300px;
+  border-right: none;
+}
+.cascader-style .el-cascader-menu+.el-cascader-menu{
+  border-left: solid 1px #e4e7ed
+}
+
+.el-table .el-button--text{
+  padding: 0;
+}
+
+.el-scrollbar__view{
+  height: 100%
+}
+
+//图片预览关闭按钮
+span.el-image-viewer__close{
+  font-size: 50px;
+  top: 15%;
+  right: 28%;
+  color: #fff;
+}
+//表头边框错位hack
+body .el-table th.gutter{
+  display: table-cell!important;
+}
+
+body .el-table colgroup.gutter{
+  display: table-cell!important;
+}
+.control-panel .expect-time input.el-input__inner{
+  width: 220px;
+}
+
+.avatar-uploader .el-upload {
+  border: 1px solid #D7D7D7;
+  background: #F0F0F0;
+	border-radius: 4px;
+	cursor: pointer;
+	position: relative;
+	overflow: hidden;
+}
+
+.el-rate{
+  display: inline;
+}
+.repair-end .el-image{
+  width: 40px !important;
+  height: 40px !important;
+  margin-right: 8px;
+  background: #EAEAEA;
+  float: left;
+}
+.img-box .el-image{
+  width: 80px;
+  height: 100%;
+  float: left;
+  background: #F0F0F0;
+  margin-right: 10px;
+}
+.repairDate .el-date-editor.el-input, .el-date-editor.el-input__inner{
+  width: 170px;
+}
+.el-timeline .el-timeline-item__tail{
+  display: block !important;
+}
+.el-timeline:last-child .el-timeline-item__tail{
+  display: none !important;
+}
+
+.file-style .el-image__inner{
+  width: 36px !important;
+  height: 36px !important;
+}
+.sensitive .el-form-item__label{
+  display: inline-block;
+  width: 84px !important;
+}
+
+// 穿梭框
+.distribute{
+  width: 100%;
+  padding-bottom: 20px;
+}
+.el-transfer{
+  width: 96%;
+  margin: 0 auto !important;
+}
+.el-transfer-panel{
+  width: 38% !important;
+}
+.el-checkbox{
+  display: inline-block !important;
+}
+.distribute .el-checkbox{
+  display: inline-block !important;
+}
+.distribute .el-input.el-input--small{
+  width: 90% !important;
+}
+.distribute .el-input--small .el-input__icon{
+  line-height: 34px !important;
+}
+.distribute .el-transfer-panel__header{
+  position: relative !important;
+}
+.distribute .el-transfer-panel .el-transfer-panel__header .el-checkbox .el-checkbox__label span{
+  right: 10px !important;
+}
+.distribute .el-checkbox{
+  display: block !important;
+}
+.el-dialog .houseType .el-input{
+  width: 210px !important;
+}
+
+/* tab项 */
+.device-config .el-tabs__content{
+  padding: 20px 0 40px;
+}
+.device-config .el-tabs__nav-scroll{
+  padding: 10px 40px 0px 40px;
+}
+.device-config .el-tabs__item{
+  font-size: 18px;
+  color: rgba(0,126,228,.5);
+  font-weight: 700;
+}
+.device-config .el-tabs__item .is-active{
+  color: #007EE4;
+}
+.device-config .el-tabs .el-form-item{
+  margin-bottom: 20px;
+}
+.longLabel .el-form-item__label{
+  line-height: 20px !important;
+}
+.congfigTop .el-form-item{
+  margin-bottom: 7px !important;
+}
+.device-config .el-form-item__content{
+  width: 160px;
+}
+.device-config .el-input-number--medium{
+  width: 160px;
+}
+.device-config .el-date-editor.el-input{
+  width: 160px;
+}
+.device-config .el-tabs__content{
+  padding-left: 10px;
+}
+.device-config .el-tabs__item{
+  height: 50px;
+}
+.el-input.is-disabled .el-input__inner{
+  color: rgb(41, 7, 7) !important;
+}
+.org .el-form-item__content,.org .el-input{
+  width: 240px !important;
+}
+
+.popper-shadow{
+  box-shadow: 0 2px 12px 0 rgba(0,0,0,0.1) !important;
+}
+.el-select__tags{
+  padding: 0 15px;
+}
+
+// 修改input框中placeholder的字体颜色
+input::-webkit-input-placeholder {
+  color: #aaa !important;
+}
+input::-moz-input-placeholder {
+  color: #aaa !important;
+}
+input::-ms-input-placeholder {
+  color: #aaa !important;
+}
+.el-popover{
+  border-radius: 8px !important;
+}
+.reStart .el-select{
+  margin-bottom: 10px !important;
+}
+.timeRange-item .el-form-item__label{
+  display: inline-block;
+  width: 10px !important;
+  font-weight: 500 !important;
+}
+.renewed-time .el-form-item__content{
+  margin-left: 115px !important;
+}
+.valid-time .el-form-item__content{
+  margin-left: 90px !important;
+}
+.el-table__fixed-right::before{
+  height: 0px !important;
+}
+
+// el-form-item
+// .control-panel .el-form-item,.control-panel .el-form-item--medium{
+//   width: 260px;
+// }
+.control-panel .el-input__inner{
+  width: 162px !important;
+}
+.control-panel .el-form-item__label{
+  display: inline-block;
+  width: 72px;
+  margin-right: 10px;
+  padding: 0px !important;
+}
+.control-panel .el-form-item{
+  margin-right: 0px !important;
+  margin-bottom: 10px !important;
+}
+.control-panel .el-form{
+  overflow: hidden;
+}
+//行政区划
+.control-panel .admininstration.el-form-item,.control-panel .admininstration.el-form-item{
+  width: auto !important;
+}
+//房屋位置
+.room-place.el-form-item{
+  width: 520px;
+}
+.room-place .el-form-item__content,.room-place .el-input__inner{
+  width: 426px !important;
+}
+.search-place.el-popover{
+  left: 255px !important;
+}
+.search-place1.el-popover{
+  left: 520px !important;
+}
+.room-place1.el-form-item{
+  width: 523px;
+}
+.room-place1 div.sSize-input-date.el-input,.room-place1 .el-input__inner{
+  width: 160px !important;
+}
+
+// .org-info .el-form-item,.org-info .el-form-item--medium{
+//   width: 240px;
+// }
+.org-info .control-right{
+  margin-right: 0px;
+}
+.org-info .control-panel{
+  margin-right: 0px;
+}
+//人脸弹窗
+.face-dialog .el-dialog{
+  width: 1000px;
+}
+.addWorker .el-date-editor.el-input{
+  width: 200px !important;
+}
+.healthRecord .el-col-5{
+  width: 20%;
+}
+
+//设备配置重启项标红
+.reLaunch-red .el-form-item__label{
+  color: #F56C6C;
+}

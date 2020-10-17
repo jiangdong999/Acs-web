@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="15px" height="14px" viewBox="0 0 15 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_add</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="0 0.0136585366 0 13.9999829 15 13.9999829 15 0.0136585366"></polygon>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_add">
+            <g>
+                <mask id="mask-2" fill="white">
+                    <use xlink:href="#path-1"></use>
+                </mask>
+                <g id="Clip-2"></g>
+                <path d="M7.21301484,13.9999829 C6.7826082,13.9999829 6.43046981,13.6503244 6.43046981,13.2229488 L6.43046981,0.790692683 C6.43046981,0.363317073 6.7826082,0.0136585366 7.21301484,0.0136585366 C7.64340429,0.0136585366 7.9954739,0.363317073 7.9954739,0.790692683 L7.9954739,13.2229488 C7.9954739,13.6503244 7.64340429,13.9999829 7.21301484,13.9999829 Z" id="Fill-1" fill="#FFFFFF"></path>
+                <path d="M0,7.27703415 C0,6.84965854 0.375000458,6.5 0.833350627,6.5 L14.1666677,6.5 C14.6249995,6.5 15,6.84965854 15,7.27703415 C15,7.70439268 14.6249995,8.05398293 14.1666677,8.05398293 L0.833350627,8.05398293 C0.375000458,8.05398293 0,7.70439268 0,7.27703415 Z" id="Fill-3" fill="#FFFFFF"></path>
+            </g>
+        </g>
+    </g>
+</svg>

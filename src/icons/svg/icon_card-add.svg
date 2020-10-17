@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="18px" height="18px" viewBox="0 0 18 18" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 44.1 (41455) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_khgl</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <rect id="path-1" x="0" y="0" width="18" height="18"></rect>
+    </defs>
+    <g id="Symbols" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="icon_khgl">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="Mask"></g>
+            <g id="开户管理" mask="url(#mask-2)" stroke-linecap="round">
+                <g transform="translate(0.000000, 2.000000)">
+                    <path d="M10.0119108,13.5 C9.4505453,13.5 9.01000233,13.5 8.69028186,13.5 C7.31466367,13.5 5.25123638,13.5 2.5,13.5 C1.3954305,13.5 0.5,12.6377336 0.5,11.5740741 L0.5,2.42592593 C0.5,1.36226641 1.3954305,0.5 2.5,0.5 L15.5,0.5 C16.6045695,0.5 17.5,1.36226641 17.5,2.42592593 L17.5,7.09999931" id="Rectangle-13" stroke="#D4D7D8"></path>
+                    <path d="M0.5,4.83928571 L15.5,4.83928571" id="Line" stroke="#D4D7D8"></path>
+                    <g id="Group" stroke="none" fill-rule="evenodd" transform="translate(11.500000, 8.500000)" stroke-linejoin="round">
+                        <polyline id="Line" stroke="#D4D7D8" points="0 3 3.59549553 3 6 3"></polyline>
+                        <path d="M3,0 L3,6" id="Line" stroke="#D4D7D8"></path>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
